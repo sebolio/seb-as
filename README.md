@@ -9,7 +9,7 @@ El servidor de Mongo viene integrado en el lanzador de `meteor` en el caso de le
 
 **Se puede ver funcionando en: http://planificador.seb.cl**
 
-![screenshot](https://seb.cl/wp-content/uploads/2020/11/screenshot.png)
+![screenshot](https://seb.cl/wp-content/uploads/2021/06/planificador.png)
 ### Stack
 * VueJS
 * MongoDB
