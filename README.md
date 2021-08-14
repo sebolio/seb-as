@@ -1,15 +1,14 @@
 # Planificador
 ### Administrador de TODOs desarrollado en VueJS que corre sobre Meteor
 
+![imagen](https://user-images.githubusercontent.com/71235349/129432202-09a3420c-7a46-4078-8693-93a49a88bbc9.png)
+
 Este programa permite registrarse como usuario, gestionar una lista de tareas pendientes y marcarlas como terminadas. Se utilizan librerías propias de Meteor y Vue para manejar los estados de los usuarios y la suscripción a cambios en la base de datos.
 
 Para docker se utiliza una imagen no oficial pero muy popular, que se encuentra en el repositorio oficial de Docker.
 
 El servidor de Mongo viene integrado en el lanzador de `meteor` en el caso de levantar como desarrollador, mientras que al levantar como usuario se utiliza una versión dockerizada.
 
-**Se puede ver funcionando en: http://planificador.seb.cl**
-
-![imagen](https://user-images.githubusercontent.com/71235349/129432202-09a3420c-7a46-4078-8693-93a49a88bbc9.png)
 
 ### Stack
 * VueJS
