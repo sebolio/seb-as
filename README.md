@@ -17,7 +17,7 @@ El servidor de Mongo viene integrado en el lanzador de `meteor` en el caso de le
 * Docker
 
 ## Levantar en modo Desarrollo
- Se requiere tener [meteor](https://www.meteor.com/install) (si usas Windows, necesitas instalarlo mediante [chocolatey](https://chocolatey.org))
+⚠ Se requiere tener [meteor](https://www.meteor.com/install) (si usas Windows, necesitas instalarlo mediante [chocolatey](https://chocolatey.org))
 ```sh
 meteor run
 ```
