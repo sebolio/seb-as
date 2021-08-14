@@ -21,6 +21,8 @@ El servidor de Mongo viene integrado en el lanzador de `meteor` en el caso de le
 ```sh
 meteor run
 ```
+Acceder por el navegador:
+> http://localhost:3000
 
 ## Levantar con Docker
 ⛔ En macOS se recomienda configurar Docker para usar `overlay2` en vez de `aufs`, para construir más rápido el contenedor de Meteor
@@ -28,8 +30,6 @@ meteor run
 > ```json
 >  "storage-driver": "overlay2"
 >```
-Acceder por el navegador:
-> http://localhost:3000
 
 Construir y levantar la aplicación:
 ```sh
