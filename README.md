@@ -17,14 +17,14 @@ El servidor de Mongo viene integrado en el lanzador de `meteor` en el caso de le
 * Docker
 
 ## Levantar en modo Desarrollo
-⛔ Se requiere tener [meteor](https://www.meteor.com/install) (si usas Windows, necesitas instalarlo mediante [chocolatey](https://chocolatey.org))
+ Se requiere tener [meteor](https://www.meteor.com/install) (si usas Windows, necesitas instalarlo mediante [chocolatey](https://chocolatey.org))
 ```sh
 meteor run
 ```
 Acceder por el navegador a http://localhost:3000
 
 ## Levantar con Docker
-⛔ En macOS puedes usar `overlay2` en vez de `aufs`, añadiendo este parámetro a los ajustes de Docker Engine:
+En macOS puedes usar `overlay2` en vez de `aufs`, añadiendo este parámetro a los ajustes de Docker Engine:
 > ```json
 >  "storage-driver": "overlay2"
 >```
