@@ -24,8 +24,7 @@ meteor run
 Acceder por el navegador a http://localhost:3000
 
 ## Levantar con Docker
-⛔ En macOS se recomienda configurar Docker para usar `overlay2` en vez de `aufs`, para construir más rápido el contenedor de Meteor
-> Abrir Dashboard de Docker Desktop y en ajustes de `Docker Engine`, añadir el siguiente parámetro:
+⛔ En macOS puedes usar `overlay2` en vez de `aufs`, añadiendo este parámetro a los ajustes de Docker Engine:
 > ```json
 >  "storage-driver": "overlay2"
 >```
